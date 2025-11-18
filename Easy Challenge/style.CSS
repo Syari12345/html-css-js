@@ -1,0 +1,26 @@
+p {
+margin: 10px; ;
+margin-top: 100px;
+margin-bottom:100px ;
+color: rgb(0, 20, 250);
+background-color: aqua;
+padding: 20px;
+border-width: 5px;
+border-style: dotted;
+border-color: red;
+}
+
+div {
+width: 40%;
+height: 100%;
+border: 15px solid black;
+margin: 50px;
+padding: 50px;
+background-color: beige;
+text-align: center;
+
+}
+body {
+    background: url(tree-with-wide-branches-green-leaves-beside-winding-path-woods_181624-37054.jpg);
+    background-size: cover;
+}
