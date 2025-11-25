@@ -1,0 +1,54 @@
+ article p{
+background: red;
+color: aqua;
+padding: 20px;
+
+ }
+
+ div p{
+background: green;
+color: aqua;
+padding: 20px;
+
+ }
+
+
+article > p {
+
+    background: red;
+    padding: 20px;
+}
+
+article ~ p{
+
+background: goldenrod;
+padding: 20px;
+
+}
+
+
+article + p{
+
+    background: skyblue;
+}
+
+input:in-range{
+border: 2px solid green; 
+
+}
+
+input:out-of-range{
+
+    border: 2px solid red;
+}
+
+main p:first-child{
+    background-color: blue;
+}
+
+a:hover{
+    background-color: red;
+}
+
+
+
