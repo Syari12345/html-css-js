@@ -2,52 +2,75 @@
 background: red;
 color: aqua;
 padding: 20px;
-
  }
 
  div p{
 background: green;
 color: aqua;
 padding: 20px;
-
  }
 
 
 article > p {
-
     background: red;
     padding: 20px;
 }
 
 article ~ p{
-
 background: goldenrod;
 padding: 20px;
-
 }
 
 
 article + p{
-
     background: skyblue;
 }
 
+
 input:in-range{
 border: 2px solid green; 
-
 }
+
 
 input:out-of-range{
-
     border: 2px solid red;
 }
+
 
 main p:first-child{
     background-color: blue;
 }
 
-a:hover{
+
+#link:hover{
     background-color: red;
+}
+
+
+nav a{
+padding: 20px;
+margin: 15px;
+}
+
+
+nav{
+padding: 20px;
+margin: 15px;
+background-color: rgb(49, 182, 49);
+}
+
+
+nav a:hover{
+    background-color: rgb(8, 116, 8);
+}
+
+
+nav a :active{
+      background-color: rgb(8, 116, 8);
+}
+
+nav a :visited{
+    color: black;
 }
 
 
