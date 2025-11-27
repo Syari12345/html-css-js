@@ -1,0 +1,27 @@
+div#div1{
+    position: static;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+div#div2{
+     position: relative;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left: 1000px;
+    top: 100px;
+}
+
+div#div3{
+    position: fixed;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    top: 100px;
+    right: 150px;
+}
