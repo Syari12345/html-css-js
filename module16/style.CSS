@@ -1,0 +1,24 @@
+.Gallery{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 450px;
+}
+
+.Gallery :hover{
+    
+     border: 3px solid rgb(45, 42, 231);
+}
+
+
+.Gallery img{
+ width: 100%;
+ height: auto;
+}
+
+.desc{
+
+    text-align: center;
+}
+
+
