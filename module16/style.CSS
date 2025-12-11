@@ -5,8 +5,7 @@
     width: 450px;
 }
 
-.Gallery :hover{
-    
+.Gallery :hover{   
      border: 3px solid rgb(45, 42, 231);
 }
 
@@ -17,8 +16,63 @@
 }
 
 .desc{
-
     text-align: center;
 }
 
+.sprite{
+ background: url(images/image.png);
+}
 
+.engeineers{
+
+   width: 400px;
+   height: 400px;
+   background-position: 0px 0px;
+   display: inline block;
+
+}
+
+.shadows{
+
+   width: 400px;
+   height: 400px;
+   background-position: -500px 0px;
+   display: inline block;
+
+}
+
+.speedsters{
+ 
+   width: 400px;
+   height: 400px;
+   background-position: 0px -500px;
+   display: inline block;
+
+}
+
+.hipsters{
+
+   width: 400px;
+   height: 400px;
+   background-position: -500px -500px;
+   display: inline block;
+
+}
+
+p[class*="ds"]{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+
+}
+
+div[class~="ds"]{
+    padding: 30px;
+    background-color: red;
+    color: white;
+}
+
+
+input[placeholder$="Name"]{
+    border: 2px solid red;
+}
