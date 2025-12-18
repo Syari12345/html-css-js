@@ -1,0 +1,39 @@
+#div-test{
+width: 200px;
+height: 200px;
+border-radius: 10px;
+color: aqua;
+background-color: blue;
+margin: 200px;
+/* transform: translate(500px, 500px); */
+padding: 10px;
+/* transform: rotate(50deg);
+transform: scale(2,2); */
+/* transform: scaleX(2); */
+/* transform: scaleY(3);  */
+/* transform: skewX(40deg); */
+/* transform: skewY(30deg); */
+}
+
+
+#transition{
+width: 200px;
+height: 200px;
+background-color: blue;
+transition: background 2s,border-radius 5s;
+}
+
+#transition:hover{
+background-color: red;
+border-radius: 50%;
+}
+
+/* zoom in */
+#engineers img{
+    transform: scale(1);
+    transition: 3s ease-in-out;
+}
+
+#engineers:hover img{
+    transform: scale(1.5);
+}
