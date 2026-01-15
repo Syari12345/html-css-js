@@ -7,7 +7,7 @@ body{
 nav{
     padding: 10px;
     margin: 50px;
-    background: rgb(209, 148, 92);
+    background: rgb(26, 10, 97);
     width: 100%;
 }
 
@@ -36,3 +36,44 @@ nav img{
     float: left;
 }
 
+
+
+body {
+background-image: url("apple-znak-blu-fon.webp"); 
+
+  background-repeat: no-repeat; 
+  
+  background-size: cover; 
+
+ 
+  background-position: center; 
+
+  
+  background-attachment: fixed; 
+  
+  
+  background-color: black;
+}
+
+h1, h2 {
+  color: rgb(93, 80, 141);
+  text-align: left;
+  padding-top: 50px;
+}
+
+.Gallery{
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 450px;
+}
+
+.Gallery :hover{   
+     border: 3px solid rgb(45, 42, 231);
+}
+
+
+.Gallery img{
+ width: 100%;
+ height: auto;
+}
