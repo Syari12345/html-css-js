@@ -4,12 +4,7 @@ body{
     color: aqua;
 }
 
-nav{
-    padding: 10px;
-    margin: 50px;
-    background: rgb(26, 10, 97);
-    width: 100%;
-}
+
 
 nav ul{
     list-style: none;
@@ -34,6 +29,22 @@ nav img{
     width: 70px;
     height: 70px;
     float: left;
+}
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  background: rgb(11, 13, 156);
+  padding: 15px 30px;
+  width: fit-content;
+  margin: 40px auto;
+
+  border-radius: 50px; /* SOFT EDGES */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 
