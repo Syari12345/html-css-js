@@ -49,6 +49,7 @@ nav{
 
 
 
+
 body {
 background-image: url("apple-znak-blu-fon.webp"); 
 
@@ -66,7 +67,18 @@ background-image: url("apple-znak-blu-fon.webp");
   background-color: black;
 }
 
-h1, h2 {
+h2{
+ font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  color: rgb(93, 80, 141);
+  text-align: left;
+  padding-top: 50px;
+
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Courier New', monospace;
   color: rgb(93, 80, 141);
   text-align: left;
   padding-top: 50px;
