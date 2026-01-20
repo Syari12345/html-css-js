@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    background: blue;
+}
+
+.container div{
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.container div:nth-child(1){
+    order: 4;
+}
+
+.container div:nth-child(2){
+    order: 2;
+    flex-grow: 2;
+}
+
+.container div:nth-child(3){
+    order: 3;
+}
+
+.container div:nth-child(4){
+    order: 0;
+}
+
+.container2{
+    display: flex;
+    background: blue;
+    flex-direction: column;
+}
+
+.container2 div{
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.container3{
+    display: flex;
+    background: rgb(19, 26, 128);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container3 div{
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.container4{
+    display: flex;
+    background: rgb(6, 11, 83);
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 200px;
+}
+
+.container4 div{
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    font-size: 35px;
+    height: 50px;
+}
+
+.container4 div:nth-child(3){
+    align-self: flex-end;
+}
+
