@@ -29,7 +29,7 @@
 
 .container2{
     display: flex;
-    background: blue;
+    background: rgb(13, 13, 134);
     flex-direction: column;
 }
 
@@ -73,4 +73,44 @@
 .container4 div:nth-child(3){
     align-self: flex-end;
 }
+
+/* align-items: stretch, flex-start, flex-end, center */
+
+.container5{
+    display: flex;
+    background: rgb(57, 64, 156);
+    flex-direction: row;
+    align-items: flex-start;
+    height: 200px;
+}
+
+.container5 div{
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    font-size: 35px;
+}
+
+/* align-content: flex-start, flex-end, center, space-between, space-around, stretch */ 
+
+.container6{
+    display: flex;
+    background: rgb(67, 67, 75);
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container6 div{
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px;
+    font-size: 35px;
+    height: 200px;
+    width: 400px;
+}
+
+
+
+
 
