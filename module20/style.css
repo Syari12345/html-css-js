@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(108, 47, 177);
+    color: rgb(108, 47, 177);
+}
+
+
+
+
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+nav li{
+    display: inline-flex;
+    margin: 15px;
+}
+
+nav a{
+    display: inline;
+    border: 1px dotted transparent;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-right: 100px;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  background: rgb(108, 47, 177);
+  padding: 15px 30px;
+  width: fit-content;
+  margin: 40px auto;
+
+  border-radius: 50px; 
+}
+
+nav :hover{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
