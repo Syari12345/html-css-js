@@ -7,12 +7,14 @@ body{
 
 
 
+
 nav ul{
     list-style: none;
-    text-align: right;
+    text-align: center;
 }
 
 nav li{
+    margin-left: 300px;
     display: inline-flex;
     margin: 15px;
 }
@@ -50,5 +52,43 @@ nav :hover{
 nav ul li a{
     margin-left: 20px;
     text-decoration: none;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+
+h2{
+    color: white;
+    background-color: rgb(189, 94, 39);
+    text-align: center;
+    margin-left: 850px;
+    display: inline-flex;
+    
+}
+
+
+.container{
+    background: rgb(71, 190, 111);
+}
+
+.container h1{
+    background-color: rgb(71, 190, 111);
+    padding: 300px;
+    margin: 100px;
+    font-size: 35px;
+
+
+}
+
+.container h3{
+    background-color: rgb(71, 190, 111);
+    margin: 150px;
+    font-size: 35px;
+    color: white;
+
+
 }
 
