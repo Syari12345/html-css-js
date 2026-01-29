@@ -1,0 +1,57 @@
+:root{
+    --bg: #020012;
+    --bg-2: #0f172a;
+    --border: #22304a;
+
+
+    --text: #e5e7eb;
+    --text2: #a3b0c2;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+#topbar{
+    background: var(--bg-2);
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid var(--border);
+}
+
+
+#header-container{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#brand_name{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text);
+}
+
+.brand{
+    text-decoration: none;
+}
+
+.nav_link{
+    color: var(--text);
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+.nav_link:hover{
+    background: var(--text2);
+    color: var(--bg-2);
+    border-radius: 20px;
+}
+
