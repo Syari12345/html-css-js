@@ -8,12 +8,14 @@
     --text2: #a3b0c2;
 }
 
+
 body{
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--bg);
     color: var(--text);
 }
+
 
 #topbar{
     background: var(--bg-2);
@@ -32,6 +34,7 @@ body{
     align-items: center;
 }
 
+
 #brand_name{
     font-size: 20px;
     font-weight: bold;
@@ -42,6 +45,7 @@ body{
     text-decoration: none;
 }
 
+
 .nav_link{
     color: var(--text);
     text-decoration: none;
@@ -49,9 +53,92 @@ body{
 
 }
 
+
 .nav_link:hover{
     background: var(--text2);
     color: var(--bg-2);
     border-radius: 20px;
+}
+
+.hero{
+    text-align: center;
+    padding: 70px 0;
+    background: linear-gradient(180deg, var(--bg), var(--bg-2));
+}
+
+#hero_title{
+    font-size: 40px;
+    margin: 15px;
+}
+
+#hero_p{
+    font-size: 20px;
+    color: var(--text2);
+}
+
+#hero_img{
+    margin: 0 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+.stat_value{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stat_label{
+    color: var(--text);
+}
+
+.stats{
+    border: 1px solid var(--border);
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+#bestsellers_title{
+    font-size: 50px;
+    color: var(--text);
+    text-align: center;
+}
+
+
+#product-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+#product-grid img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.product-card{
+    border: 2px solid var(--border);
+    background: #111c33;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.product-card button{
+    font-size: 15px;
+    padding: 5px 10px;
+    color: black;
+    background: #0ea5e9;
 }
 
