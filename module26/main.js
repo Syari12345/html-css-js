@@ -83,3 +83,29 @@ var fullName = emri +" "+mbiemri;
 console.log(fullName);
 
 console.log(`Hello from ${emri}`);
+
+
+
+var first = "Digital";
+var second = "School";
+
+var fullsentence = first +" "+second;
+
+console.log(fullsentence);
+console.log(`Hello from ${fullsentence}`);
+
+var age = 25;
+
+console.log(age <= 28  &&  age >= 18);
+
+
+
+var var1 = 5;
+
+console.log(var1<4 || var1==4);  
+
+
+var var2 = 10
+var var3 = 12
+
+console.log(!(10 == 12))
