@@ -28,3 +28,10 @@ var button5 =document.getElementById("btn5");
 button5.onmouseover = function(){
   alert('on mouse')
 }
+
+var v_button = document.getElementById("btn6")
+
+var v_text = document.getElementById("txt")
+v_button.onclick = function(){
+  v_text.style.color='red'
+}
