@@ -40,10 +40,10 @@
 
 
 // function toPerimeter(a,b,c){
-//     return a+b+c;
-// }
+    //  return a+b+c; }
 
-// console.log(toPerimeter(5,3,4))
+
+ console.log(toPerimeter(5,3,4))
 
 
 
