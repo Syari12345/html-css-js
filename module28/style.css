@@ -1,0 +1,10 @@
+.paragrafi1{
+    color: brown;
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 100px;
+    text-align: center;
+}
