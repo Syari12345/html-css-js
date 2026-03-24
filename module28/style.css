@@ -1,10 +1,23 @@
-.paragrafi1{
-    color: brown;
-    background-color: aqua;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    border: 2px solid;
-    border-radius: 20px;
-    padding: 100px;
-    text-align: center;
+.shape_Circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.shape_Rect{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.shape_Triangel{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-bottom: 100px green;
+}
+
+.hide{
+    display: none;
 }

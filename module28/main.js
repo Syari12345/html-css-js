@@ -52,9 +52,38 @@ v_button1.onclick = function(){
 
 }
 
-var ifundit = document.getElementById("ifundit")
-var pg = document.getElementById("pg")
 
-ifundit.onclick = function(){
-  pg.setAttribute("class","paragrafi1")
+var btn_Circle = document.getElementById("btnCircle");
+var btn_Triangle = document.getElementById("btnTriangle");
+var btn_Rect = document.getElementById("btnRect");
+
+var circle = document.getElementById("circle");
+var rect = document.getElementById("rect");
+var triangle = document.getElementById("triangle");
+
+btn_Circle.onclick = function(){
+
+  circle.setAttribute("class", "shape_Circle")
+}
+
+btn_Triangle.onclick = function(){
+
+  triangle.setAttribute("class", "shape_Triangle")
+}
+
+btn_Rect.onclick = function(){
+
+  rect.setAttribute("class", "shape_Rect")
+}
+
+circle.onclick = function(){
+  circle.setAttribute("class", "hide")
+}
+
+rect.onclick = function(){
+  rect.setAttribute("class", "hide")
+}
+
+triangle.onclick = function(){
+  triangle.setAttribute("class", "hide")
 }
