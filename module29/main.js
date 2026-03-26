@@ -55,7 +55,7 @@ console.log(s5);
 
 
 
-var qytete [ "Tokio", "Stamboll", "Londër", "Paris", "Roma", "Dudai", "Rio de Janeiro", "Singapor", "Nju Jork", "Tirana", "Durrësi", "Shkodra", "Vlora", "Fieri", "Korça", "Kavaja", "Lezha", "Laçi", "Kukësi", "Saranda" ];
+var qytete [ 'Tokio', 'Stamboll', "Londër", "Paris", "Roma", "Dudai", "Rio de Janeiro", "Singapor", "Nju Jork", "Tirana", "Durrësi", "Shkodra", "Vlora", "Fieri", "Korça", "Kavaja", "Lezha", "Laçi", "Kukësi", "Saranda" ];
 
     var [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10] = qytete
 
