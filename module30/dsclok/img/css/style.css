@@ -1,0 +1,25 @@
+body{
+    background-color: #06206a;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+}
+
+select {
+    width: 100px;
+    height: 50px;
+}

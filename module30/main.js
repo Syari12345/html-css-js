@@ -35,7 +35,6 @@ var text2 = document.getElementById("text2_id");
 
 
 
-
 button1.onclick = function(){
    var result2 = result.innerHTML = parseInt(num1.value) + parseInt(num2.value);
     if(result2 > 10){
