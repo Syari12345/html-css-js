@@ -1,6 +1,6 @@
-var wakwupLine;
-var dstime
-var sleepLine
+var wakeuptime;
+var dstime;
+var sleeptime;
 var noon = 12;
 
 function showCurrentTime(){
@@ -17,8 +17,7 @@ function showCurrentTime(){
         meridian = "PM";
     }
 
-    var clockTime = hours + ":" + minutes ":" + seconds + " " + meridian; 
+    var clockTime = hours + ":" + minutes + ":" + seconds + " " + meridian; 
     clock.innerHTML = clockTime;
-
     changeImages();
 };
