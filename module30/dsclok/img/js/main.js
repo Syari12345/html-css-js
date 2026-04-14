@@ -17,7 +17,7 @@ function showCurrentTime(){
         meridian = "PM";
     }
 
-    var clockTime = hours + ":" + minutes + ":" + seconds + " " + meridian; 
-    clock.innerHTML = clockTime;
-    changeImages();
+ var clockTime = hours + ":" + minutes + ":" + seconds + " " + meridian;
+    clock.innerText = clockTime;
+    changeImage();
 };
