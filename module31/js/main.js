@@ -26,5 +26,5 @@ for(x = 1; x <= 5; x++) {
     text1 += "The number is " + x + "<br>";
 }
 
-document.getElementById("forLoop3").innerHTML = text;
+document.getElementById("forLoop3").innerHTML = text1;
 console.log(text1);
