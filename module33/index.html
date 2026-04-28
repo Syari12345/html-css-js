@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegEx</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<form onsubmit="return validation()" method="POST">
+    <div class="name-container">
+        <label id="name_label">Name:</label>
+        <input type="text" id="name">
+        <span id="name_error">Please enter a valid name</span>
+    </div>
+
+<br>
+
+<div class="age-container">
+        <label id="age_label">Age:</label>
+        <input type="text" id="age">
+        <span id="age_error">Please enter a valid age</span>
+    </div>
+<br>
+
+
+<div class="city-container">
+        <label id="city_label">City:</label>
+        <select id="city">
+
+        <option value="" selected></option>
+        <option value="Prishtina">Prishtina</option>
+        <option value="Prizren">Prizren</option>
+        <option value="Gjilan">Gjilan</option>
+        <option value="Peja">Peja</option>
+        </select>
+
+        <span id="city_error">Please enter a valid city</span>
+    </div>
+<br>
+<button type="submit">Send</button>
+
+</form>
+
+<script src="main.js"></script>
+</body>
+</html>
