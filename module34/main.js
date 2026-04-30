@@ -12,7 +12,7 @@
 // printName();
 
 
-var color = ["red", "green", "purple", "orange", "yellow", "black"];
+var color = ["red", "green", "purple", "orange", "blue", "black"];
 
 var names = ["Omer", "Rigon", "Ernes", "Patris", "Venis", "Deon"];
 
