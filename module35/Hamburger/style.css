@@ -1,0 +1,32 @@
+nav {
+    overflow: hidden;
+    background-color: #06206a;
+    position: relative; 
+    max-width: 400px;
+}
+
+nav #myLinks {
+    display: none;
+}
+
+nav a, button {
+    color: aliceblue;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+nav button.icon {
+    background-color: #06206a;
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    right: 10px;
+    top: 0;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
